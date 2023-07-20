@@ -1,4 +1,5 @@
 import { Button } from "@/components/ui/button";
+import { UserButton } from "@clerk/nextjs";
 
 const DashboardPage = () => {
   return (
@@ -6,7 +7,6 @@ const DashboardPage = () => {
       <p>
         THis is tendo maya 
       </p>
-
       <p>
         Dashboard Page (Protected)
       </p>
