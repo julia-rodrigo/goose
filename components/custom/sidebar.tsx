@@ -80,7 +80,7 @@ const Sidebar = () => {
                         src="/assets/logo.png"
                     />
                 </div>
-                <h1 className={cn("text-2xl font-bold", montserrat.className)}>
+                <h1 className={cn("text-2xl font-bold hover:text-teal-300 duration-300", montserrat.className)}>
                     Goosle
                 </h1>
             </Link>
